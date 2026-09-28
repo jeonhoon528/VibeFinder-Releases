@@ -2,11 +2,6 @@
 
 VibeFinder is a Windows audio library browser designed for fast searching and organization of large sound libraries. Preview sounds through the Waveform view and VST3 FX Rack, then transfer them to REAPER.
 
-## Download
-
-### [⬇ Download VibeFinder 0.9.0 Beta](https://github.com/jeonhoon528/VibeFinder-Releases/releases/download/v0.9.0-beta/VibeFinder-0.9.0-Beta-Setup.exe)
-
-[View all releases and release notes](https://github.com/jeonhoon528/VibeFinder-Releases/releases)
 
 ## Preview
 
