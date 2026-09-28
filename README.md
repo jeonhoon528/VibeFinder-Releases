@@ -14,6 +14,8 @@ Open the repository's **Releases** section to find the Windows x64 installer, po
 
 ## What's new in 0.9.2 Beta
 
+For patch update details and release notes for each version, visit the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
+
 - Drop a local library folder anywhere in the VibeFinder window to register it in Library and start scanning. Multiple folders are queued and scanned in order.
 - Scan preparation no longer checks every previously indexed file before starting a new folder. Library refresh and context menu work are kept responsive during scans.
 - Configure shortcuts to show or hide the Library, Folders, Tags, Related Tags, Sample Information, and Audio File Metadata sections. These shortcuts are unassigned by default; set them in **Preferences → Shortcuts → Sections**.
