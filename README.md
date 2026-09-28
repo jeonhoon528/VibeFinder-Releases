@@ -2,9 +2,9 @@
 
 VibeFinder is a Windows audio workflow application for searching and previewing large sound libraries, processing sounds through a VST3 FX Rack, and transferring results to REAPER.
 
-## Download
+## Get VibeFinder
 
-Open the repository's **Releases** section to find the Windows x64 installer, portable ZIP, and release notes. Executable files are provided as release assets.
+Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases) for the latest Windows x64 installer, release notes, and version details.
 
 ## Preview
 
