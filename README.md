@@ -1,4 +1,4 @@
-# VibeFinder 0.9.3 Beta
+# VibeFinder 0.9.4 Beta
 
 VibeFinder is a Windows audio workflow application for searching and previewing large sound libraries, processing sounds through a VST3 FX Rack, and transferring results to REAPER.
 
@@ -22,16 +22,29 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - Tags, folders, notes, settings, and saved layouts
 - VibeAnalyzer views for Windows audio output: Waveform, Oscilloscope, Spectrogram, Spectrum, Stereo, and Loudness
 
-## What's New in 0.9.3 Beta
+## What's New in 0.9.4 Beta
 
-- **Update notifications:** VibeFinder checks GitHub Releases on the first launch of each local calendar day, including published Beta versions.
-- **Title-bar update tag:** Click **NEW VERSION AVAILABLE** to open update settings. Customize its text, background, and border in **Preferences → Colors**; text and border default to yellow (`#FFFF00`).
-- **Updates & Community:** See current and latest release versions side by side, check manually, and open GitHub Releases or Discord from Preferences.
-- **Simplified settings:** Removed the Beta checkbox, release-note box, and Preferences footer Close button.
+- **Faster library rescans:** compare the current file list with a bulk snapshot of saved records before reading metadata, then process only added, changed, or incomplete entries.
+- **Targeted scanning:** scan a selected subfolder without rescanning the rest of the library, or force a full metadata refresh when needed.
+- **Safer change detection:** track more precise modification times, preserve user data, and protect records when scanning is canceled or a drive becomes unavailable.
+- **Clearer scan progress:** show added, update, unchanged, and missing-candidate counts; retry the same scope and scan mode.
+- **Language consistency:** improved Korean and English descriptions, tooltips, and messages according to the selected language. Feature names remain in English. Restart the app after changing the language.
+
+## Library Scanning
+
+| Action | How to Use |
+| --- | --- |
+| Update a library | **Right-click a library → Rescan Library** to refresh added or changed files while skipping unchanged files. |
+| Update a folder | **Right-click a library subfolder → Rescan Folder** to check changes only within that folder. |
+| Scan a new subfolder | **Right-click a library → Scan Subfolder…**, then select a folder inside that library. |
+| Rebuild file metadata | **Right-click a library or subfolder → Force Rescan** to reread all audio files in that scope, even if unchanged. |
+| View progress | The scan window shows added files, files to update, unchanged files, and missing candidates. |
+
+Rescanning still checks the file list in the selected scope. Missing files are marked unavailable only after a completed scan; inaccessible folders and interrupted scans are protected from incorrect missing-file updates. Your notes, tags, and favorites are preserved.
 
 ## Installation
 
-1. Download `VibeFinder-0.9.3-Beta-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
+1. Download `VibeFinder-0.9.4-Beta-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
 2. Run the installer and follow the installation instructions.
 3. Launch VibeFinder.
 
@@ -59,10 +72,10 @@ VibeAnalyzer visualizes Windows audio output using loopback capture. Audio route
 
 ## Download Integrity
 
-SHA-256 for `VibeFinder-0.9.3-Beta-Setup.exe`:
+SHA-256 for `VibeFinder-0.9.4-Beta-Setup.exe`:
 
 ```text
-083e3a98cda0eb12bd1811531dc70c608a60d7f72075dc6263d790bc3fbd5e8a
+7cdb467cead85428158d73f91ca74bff1c9694738a9ecbffc0f529a9b405aec0
 ```
 
 Checksums for the installer and Qt source archives are available in `SHA256SUMS.txt` on the Releases page.
