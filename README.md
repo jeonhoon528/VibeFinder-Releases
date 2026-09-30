@@ -1,4 +1,4 @@
-# VibeFinder 0.9.4 Beta
+# VibeFinder 0.9.5 Beta
 
 VibeFinder is a Windows audio workflow application for searching and previewing large sound libraries, processing sounds through a VST3 FX Rack, and transferring results to REAPER.
 
@@ -22,13 +22,24 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - Tags, folders, notes, settings, and saved layouts
 - VibeAnalyzer views for Windows audio output: Waveform, Oscilloscope, Spectrogram, Spectrum, Stereo, and Loudness
 
-## What's New in 0.9.4 Beta
+## What's New in 0.9.5 Beta
 
-- **Faster library rescans:** compare the current file list with a bulk snapshot of saved records before reading metadata, then process only added, changed, or incomplete entries.
-- **Targeted scanning:** scan a selected subfolder without rescanning the rest of the library, or force a full metadata refresh when needed.
-- **Safer change detection:** track more precise modification times, preserve user data, and protect records when scanning is canceled or a drive becomes unavailable.
-- **Clearer scan progress:** show added, update, unchanged, and missing-candidate counts; retry the same scope and scan mode.
-- **Language consistency:** improved Korean and English descriptions, tooltips, and messages according to the selected language. Feature names remain in English. Restart the app after changing the language.
+- **In-app updates:** download a compatible release from Preferences → Updates & Community, then choose **Restart and update**. Downloads are checked against the size and SHA-256 digest supplied by GitHub before installation.
+- **Per-user installation:** installs under your Windows account and includes the required Microsoft runtime DLLs beside the app, avoiding an elevated runtime installer during normal updates.
+- **Release notes after updating:** opens the installed version's release page once after a successful in-app update. **Current version release notes** opens it again at any time.
+- **Recovery:** if installation or the new application's startup fails, the updater attempts to restore the previous program files, registration, and shortcuts. Existing library data and settings are retained.
+
+## Upgrading from 0.9.4 or earlier
+
+Install `VibeFinder-0.9.5-Beta-User-Setup.exe` once to receive the new updater. Future compatible releases can be installed from within VibeFinder. An older all-users installation is retained until removed separately.
+
+| Action | How to Use |
+| --- | --- |
+| Download an update | Open **Preferences → Updates & Community** and select **Download update** when a compatible newer release is available. |
+| Apply an update | Select **Restart and update** after the download has been verified. |
+| Cancel a download | Select **Cancel download** while the update is being downloaded. |
+| Read release notes | Select **Current version release notes**. After an in-app update, this page opens automatically once. |
+
 
 ## Library Scanning
 
@@ -44,7 +55,7 @@ Rescanning still checks the file list in the selected scope. Missing files are m
 
 ## Installation
 
-1. Download `VibeFinder-0.9.4-Beta-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
+1. Download `VibeFinder-0.9.5-Beta-User-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
 2. Run the installer and follow the installation instructions.
 3. Launch VibeFinder.
 
@@ -72,10 +83,10 @@ VibeAnalyzer visualizes Windows audio output using loopback capture. Audio route
 
 ## Download Integrity
 
-SHA-256 for `VibeFinder-0.9.4-Beta-Setup.exe`:
+SHA-256 for `VibeFinder-0.9.5-Beta-User-Setup.exe`:
 
 ```text
-7cdb467cead85428158d73f91ca74bff1c9694738a9ecbffc0f529a9b405aec0
+cc29e32a4c9c4a403e9d0abb223684aed0ea89d6c60c958db885521031e5ca5b
 ```
 
 Checksums for the installer and Qt source archives are available in `SHA256SUMS.txt` on the Releases page.
