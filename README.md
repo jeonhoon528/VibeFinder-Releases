@@ -1,4 +1,4 @@
-# VibeFinder 0.9.6 Beta
+# VibeFinder 0.9.7 Beta
 
 VibeFinder is a Windows audio workflow application for searching and previewing large sound libraries, processing sounds through a VST3 FX Rack, and transferring results to REAPER.
 
@@ -22,15 +22,17 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - Tags, folders, notes, settings, and saved layouts
 - VibeAnalyzer views for Windows audio output: Waveform, Oscilloscope, Spectrogram, Spectrum, Stereo, and Loudness
 
-## What's New in 0.9.6 Beta
+## What's New in 0.9.7 Beta
 
-- **Smoother window movement:** the main window and VibeAnalyzer now use Windows system dragging, substantially reducing stutter when moving between monitors in user testing. Custom title bars and analyzer section reordering are retained; analyzer edge snapping is applied when dragging ends.
-- **Consistent FX backgrounds:** the Waveform FX panel's Lane List and VST List now follow the FX Rack section background and theme colors.
-- **Simplified Info window:** click the title-bar logo or open **Preferences → General → About VibeFinder / Licenses**. Essential notices appear first, with separate buttons for third-party notices, license files, and terms of use. The separate title-bar Info button has been removed.
+- **Select the entire waveform:** Click the waveform or its section header, then press **Ctrl+A**, or simply **double-click the waveform**.
+- **Drag without Ctrl:** When the entire waveform is selected, drag its body to your DAW or another supported application without holding Ctrl.
+- **Sample selection:** Ctrl+A in the Sample section continues to select all samples.
+
+[Watch the 0.9.7 update preview](https://github.com/jeonhoon528/VibeFinder-Releases/releases/download/v0.9.7/VibeFinder-0.9.7-Update.mp4)
 
 ## Upgrading from 0.9.4 or earlier
 
-Install `VibeFinder-0.9.6-Beta-User-Setup.exe` once to receive the new updater. Future compatible releases can be installed from within VibeFinder. An older all-users installation is retained until removed separately.
+Install `VibeFinder-0.9.7-Beta-User-Setup.exe` once to receive the new updater. Future compatible releases can be installed from within VibeFinder. An older all-users installation is retained until removed separately.
 
 | Action | How to Use |
 | --- | --- |
@@ -54,7 +56,7 @@ Rescanning still checks the file list in the selected scope. Missing files are m
 
 ## Installation
 
-1. Download `VibeFinder-0.9.6-Beta-User-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
+1. Download `VibeFinder-0.9.7-Beta-User-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
 2. Run the installer and follow the installation instructions.
 3. Launch VibeFinder.
 
@@ -82,10 +84,10 @@ VibeAnalyzer visualizes Windows audio output using loopback capture. Audio route
 
 ## Download Integrity
 
-SHA-256 for `VibeFinder-0.9.6-Beta-User-Setup.exe`:
+SHA-256 for `VibeFinder-0.9.7-Beta-User-Setup.exe`:
 
 ```text
-0d385a3079328fd0775c2a67943187ef4e9a850b0b0d1f4280a642ff73216031
+26fa7cbdb7f8487d6b6e560a0bf0bfa162f57bdbf9edad12a2c57c75c6ed3823
 ```
 
 Checksums for the installer and Qt source archives are available in `SHA256SUMS.txt` on the Releases page.
