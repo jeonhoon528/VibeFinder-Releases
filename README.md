@@ -27,6 +27,7 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - **Select the entire waveform:** Click the waveform or its section header, then press **Ctrl+A**, or simply **double-click the waveform**.
 - **Drag without Ctrl:** When the entire waveform is selected, drag its body to your DAW or another supported application without holding Ctrl.
 - **Sample selection:** Ctrl+A in the Sample section continues to select all samples.
+- **Clear the selection**: Press Esc to deselect the waveform.
 
 [Watch the 0.9.7 update preview](https://github.com/jeonhoon528/VibeFinder-Releases/releases/download/v0.9.7/VibeFinder-0.9.7-Update.mp4)
 
