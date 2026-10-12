@@ -11,7 +11,9 @@
 | Select the whole audio file | Focus **Waveform** and press **Ctrl+A**, or **double-click the waveform**. |
 | Transfer the whole selection | **Click and drag the body of the fully selected waveform** to your DAW or another supported application. Ctrl is not required. |
 
-[Watch the 0.9.7 update preview](https://github.com/jeonhoon528/VibeFinder-Releases/releases/download/v0.9.7/VibeFinder-0.9.7-Update.mp4)
+![VibeFinder 0.9.7 preview 1](https://raw.githubusercontent.com/jeonhoon528/VibeFinder-Releases/main/assets/previews/VibeFinder-0.9.7-Preview-1.gif)
+
+![VibeFinder 0.9.7 preview 2](https://raw.githubusercontent.com/jeonhoon528/VibeFinder-Releases/main/assets/previews/VibeFinder-0.9.7-Preview-2.gif)
 
 Install `VibeFinder-0.9.7-Beta-User-Setup.exe`, or update from a compatible installation through **Preferences → Updates & Community**. Existing library data and settings are retained.
 

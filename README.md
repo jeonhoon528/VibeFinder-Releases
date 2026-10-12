@@ -29,7 +29,9 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - **Sample selection:** Ctrl+A in the Sample section continues to select all samples.
 - **Clear the selection**: Press Esc to deselect the waveform.
 
-[Watch the 0.9.7 update preview](https://github.com/jeonhoon528/VibeFinder-Releases/releases/download/v0.9.7/VibeFinder-0.9.7-Update.mp4)
+![VibeFinder 0.9.7 preview 1](https://raw.githubusercontent.com/jeonhoon528/VibeFinder-Releases/main/assets/previews/VibeFinder-0.9.7-Preview-1.gif)
+
+![VibeFinder 0.9.7 preview 2](https://raw.githubusercontent.com/jeonhoon528/VibeFinder-Releases/main/assets/previews/VibeFinder-0.9.7-Preview-2.gif)
 
 ## Upgrading from 0.9.4 or earlier
 
