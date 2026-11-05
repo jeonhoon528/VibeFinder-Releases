@@ -1,4 +1,4 @@
-# VibeFinder 0.9.7 Beta
+# VibeFinder 0.9.8 Beta
 
 VibeFinder is a Windows audio workflow application for searching and previewing large sound libraries, processing sounds through a VST3 FX Rack, and transferring results to REAPER.
 
@@ -22,7 +22,17 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - Tags, folders, notes, settings, and saved layouts
 - VibeAnalyzer views for Windows audio output: Waveform, Oscilloscope, Spectrogram, Spectrum, Stereo, and Loudness
 
-## What's New in 0.9.7 Beta
+## What's New in 0.9.8 Beta
+
+- **More audio formats:** FLAC, AIFF, MP3, and Ogg Vorbis scanning, waveforms, and playback.
+- **Playback controls:** stop-position modes (**N**), one-shot selection playback, and Reverse preview.
+- **Context Help:** press **F12** and hover over a control for its explanation.
+- **Interface and analyzer:** updated sidebar colors/icons, selection text colors, active-section indicators, and analyzer pin behavior.
+- **PRISM:** video-link collections, YouTube RSS, collection rename/icon/settings/delete actions, and uninstall record-preservation options.
+
+[Full release notes — English / 한국어](RELEASE-NOTES-0.9.8.md)
+
+## Waveform Selection — Introduced in 0.9.7
 
 - **Select the entire waveform:** Click the waveform or its section header, then press **Ctrl+A**, or simply **double-click the waveform**.
 - **Drag without Ctrl:** When the entire waveform is selected, drag its body to your DAW or another supported application without holding Ctrl.
@@ -35,7 +45,7 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 
 ## Upgrading from 0.9.4 or earlier
 
-Install `VibeFinder-0.9.7-Beta-User-Setup.exe` once to receive the new updater. Future compatible releases can be installed from within VibeFinder. An older all-users installation is retained until removed separately.
+Install `VibeFinder-0.9.8-Beta-User-Setup.exe` once to receive the new updater. Future compatible releases can be installed from within VibeFinder. An older all-users installation is retained until removed separately.
 
 | Action | How to Use |
 | --- | --- |
@@ -59,7 +69,7 @@ Rescanning still checks the file list in the selected scope. Missing files are m
 
 ## Installation
 
-1. Download `VibeFinder-0.9.7-Beta-User-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
+1. Download `VibeFinder-0.9.8-Beta-User-Setup.exe` from the [Releases page](https://github.com/jeonhoon528/VibeFinder-Releases/releases).
 2. Run the installer and follow the installation instructions.
 3. Launch VibeFinder.
 
@@ -87,16 +97,16 @@ VibeAnalyzer visualizes Windows audio output using loopback capture. Audio route
 
 ## Download Integrity
 
-SHA-256 for `VibeFinder-0.9.7-Beta-User-Setup.exe`:
+SHA-256 for `VibeFinder-0.9.8-Beta-User-Setup.exe`:
 
 ```text
-26fa7cbdb7f8487d6b6e560a0bf0bfa162f57bdbf9edad12a2c57c75c6ed3823
+7ce830c89e934b6adffcd04369c4f3dacee20b4d1c8b3259cf5b63f229577340
 ```
 
-Checksums for the installer and Qt source archives are available in `SHA256SUMS.txt` on the Releases page.
+Checksums for the installer, PRISM add-on, and corresponding-source archives are available in `SHA256SUMS.txt` on the Releases page.
 
 ## License and Copyright
 
 Copyright © 2026 JEONHOON. All rights reserved.
 
-VibeFinder is proprietary software. The installer and application package include end-user terms and third-party license notices. Corresponding QtBase and QtSvg source archives are provided with the release for license compliance.
+VibeFinder is proprietary software. The installer and application package include end-user terms and third-party license notices. Corresponding QtBase, QtSvg, and audio codec source archives are provided with the release for license compliance.
