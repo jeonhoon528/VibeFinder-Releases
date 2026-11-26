@@ -1,4 +1,4 @@
-# VibeFinder 0.9.8 Beta
+# VibeFinder 0.9.9 Beta
 
 VibeFinder is a Windows audio workflow application for searching and previewing large sound libraries, processing sounds through a VST3 FX Rack, and transferring results to REAPER.
 
@@ -21,6 +21,12 @@ Visit the [VibeFinder Releases page](https://github.com/jeonhoon528/VibeFinder-R
 - Nondestructive REAPER transfer and integration
 - Tags, folders, notes, settings, and saved layouts
 - VibeAnalyzer views for Windows audio output: Waveform, Oscilloscope, Spectrogram, Spectrum, Stereo, and Loudness
+
+## What's New in 0.9.9 Beta
+
+More complete metadata indexing, search filters with autocomplete, detachable sections, and sample columns that fit the panel. After updating, right-click each existing library and choose **Force Rescan** to refresh its metadata.
+
+[Full release notes — English / 한국어](RELEASE-NOTES-0.9.9.md)
 
 ## What's New in 0.9.8 Beta
 
